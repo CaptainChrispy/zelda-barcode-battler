@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "0371110125502",
+    "category": "Soldier",
+    "card_type": {
+      "english": "Player Card",
+      "japanese": "プレイヤーカード"
+    },
+    "character": {
+      "name_english": "Link",
+      "name_japanese": "リンク"
+    },
+    "stat_type": "HP",
+    "stat_value": 3700,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0371110125502",
+      "HP": 3700,
+      "ST": 1100,
+      "DF": 1000,
+      "Race": { "code": 1, "english": "Animal" },
+      "Job": { "code": 2, "english": "Soldier" },
+      "Flag": "50 (Hero)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "戦士カード", "english": "Soldier Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "ハイラルの国を守るため、 ただひとり旅立った勇者。いろいろな武器やアイテムを駆使して、 \"光の世界\" と \"闇の世界\" を冒険する。",
+          "english": "A hero who left alone to protect the land of Hyrule. Adventure through the \"world of light\" and \"world of darkness\" by making full use of various weapons and items."
+        }
+      }
+    }
+  },
+  {
+    "id": "0371110274507",
+    "category": "Wizard",
+    "card_type": {
+      "english": "Wizard Card",
+      "japanese": "魔法使いカード"
+    },
+    "character": {
+      "name_english": "Link (Magic)",
+      "name_japanese": "リンク (魔法)"
+    },
+    "stat_type": "HP",
+    "stat_value": 3700,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0371110274507",
+      "HP": 3700,
+      "ST": 1100,
+      "DF": 1000,
+      "Race": { "code": 2, "english": "Aquatic" },
+      "Job": { "code": 7, "english": "Wizard" },
+      "Flag": "50 (Hero)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "magic_attack": {
+          "japanese": "魔法攻撃",
+          "english": "Magic Attack",
+          "value": "+1~6"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "魔法使いカード", "english": "Wizard Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "数多いモンスターの中には、 剣の攻撃をなかなか受けつけない強者もいる。そんな時は、 この強力な魔法が勇者の行く手を切り開くだろう。",
+          "english": "Among the various monsters there are those who cannot be easily brought down with swords. In this case, powerful magic will guide the hero."
+        }
+      }
+    }
+  },
+  {
+    "id": "0351112014707",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Spear Trooper",
+      "name_japanese": "ヤリ兵士"
+    },
+    "stat_type": "HP",
+    "stat_value": 3500,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0351112014707",
+      "HP": 3500,
+      "ST": 1100,
+      "DF": 1200,
+      "Race": { "code": 0, "english": "Mechanical" },
+      "Job": { "code": 1, "english": "Soldier" },
+      "Flag": "70 (Rewards 200 ST)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "3"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "\"光の世界\" で最初に出会う強敵が、 城を守る兵士たちだ。ヤリ兵士は、 文字通りヤリを投げて攻撃してくるぞ!いったい何本、ヤリを持っているのだろう?",
+          "english": "The first enemies you'll meet are the castle guards. Spear Soldiers will literally throw spears at you! How many spears do they have?"
+        }
+      }
+    }
+  },
+  {
+    "id": "0382121377255",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Bari",
+      "name_japanese": "バリ"
+    },
+    "stat_type": "HP",
+    "stat_value": 3800,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0382121377255",
+      "HP": 3800,
+      "ST": 2100,
+      "DF": 2100,
+      "Race": { "code": 3, "english": "Bird" },
+      "Job": { "code": 7, "english": "Wizard" },
+      "Flag": "25 (DF x0.7 (Opponent))"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "4"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "体じゅうにバリ!バリ!と、 電気が走っている。剣で攻撃したら、 電撃をくらってフラフラになる危険性大!?あんまり近づきたくないね...。",
+          "english": "Bari are everywhere! Bari! Their electricity crackles. Attack it with a sword and you'll risk being shocked!? Don't get too close..."
+        }
+      }
+    }
+  },
+  {
+    "id": "0401312423653",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Geldman",
+      "name_japanese": "ゲルドマン"
+    },
+    "stat_type": "HP",
+    "stat_value": 4000,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0401312423653",
+      "HP": 4000,
+      "ST": 1300,
+      "DF": 1200,
+      "Race": { "code": 4, "english": "Human" },
+      "Job": { "code": 2, "english": "Soldier" },
+      "Flag": "65 (Rewards 1000 HP)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "5"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "砂漠を旅するリンクに、 突然襲いかかるモンスター。ザバッー!と、 砂の中から巨体が現れる。一撃で倒すのが一番なんだけど!?",
+          "english": "A monster which suddenly attacks Link in the dessert. Aaaggh! This giant rises from the sand. Best to take it down with one strike!?"
+        }
+      }
+    }
+  },
+  {
+    "id": "0444444474285",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Wizzrobe",
+      "name_japanese": "ウィスローブ"
+    },
+    "stat_type": "HP",
+    "stat_value": 4400,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0444444474285",
+      "HP": 4400,
+      "ST": 4400,
+      "DF": 4400,
+      "Race": { "code": 4, "english": "Human" },
+      "Job": { "code": 7, "english": "Wizard" },
+      "Flag": "28 (HP x0.7 (Opponent))"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "6"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "自分の姿を消すことができる、 とんがり帽子の魔法使い。集団で出現することが多く、 痛恨のダメージを受けるかもしれない...。",
+          "english": "A pointy hatted wizard who can vanish from sight. They tend to appear in dangerous groups..."
+        }
+      }
+    }
+  },
+  {
+    "id": "0521416275801",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Zora",
+      "name_japanese": "ゾーラ"
+    },
+    "stat_type": "HP",
+    "stat_value": 5200,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0521416275801",
+      "HP": 5200,
+      "ST": 1400,
+      "DF": 1600,
+      "Race": { "code": 2, "english": "Aquatic" },
+      "Job": { "code": 7, "english": "Wizard" },
+      "Flag": "80 (Rewards Passcode 05)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "7"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "水の中に生息するモンスター。水面から上半身だけをのぞかせて、 離れたところから攻撃してくるぞ。でも、 親ゾーラじゃないから、 ひと安心...!?",
+          "english": "A monster which lives in the water. It attacks from a distance with only it's upper body above the surface. But these aren't fully grown...!?"
+        }
+      }
+    }
+  },
+  {
+    "id": "0641523443754",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Helmasaur",
+      "name_japanese": "ヒップループ"
+    },
+    "stat_type": "HP",
+    "stat_value": 6400,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0641523443754",
+      "HP": 6400,
+      "ST": 1500,
+      "DF": 2300,
+      "Race": { "code": 4, "english": "Human" },
+      "Job": { "code": 4, "english": "Soldier" },
+      "Flag": "75 (Rewards 200 DF)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "8"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "アタマが硬い仮面で守られているので、 正面から攻めては、 なかなかダメージを与えられない!まずは、 ヒップループの守備力を下げてしまうのが得策...!?",
+          "english": "Its tough mask renders frontal attacks futile! It's a good idea to reduce Hiploop's defence first...!?"
+        }
+      }
+    }
+  },
+  {
+    "id": "0751821024767",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Moblin",
+      "name_japanese": "モリブリン"
+    },
+    "stat_type": "HP",
+    "stat_value": 7500,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0751821024767",
+      "HP": 7500,
+      "ST": 1800,
+      "DF": 2100,
+      "Race": { "code": 0, "english": "Mechanical" },
+      "Job": { "code": 2, "english": "Soldier" },
+      "Flag": "76 (Rewards 400 DF)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "9"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "\"闇の世界\" の地上に出現する、 ブタのような兵士。手に持っている武器は強そうだが、 落ち着いて戦えばコワい敵ではない。",
+          "english": "A pig-like soldier which lives in the land of the \"Dark World\". Its weapon looks strong but if you keep your head down it's not scary."
+        }
+      }
+    }
+  },
+  {
+    "id": "0862722327410",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Red Goria",
+      "name_japanese": "コッピ"
+    },
+    "stat_type": "HP",
+    "stat_value": 8600,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0862722327410",
+      "HP": 8600,
+      "ST": 2700,
+      "DF": 2200,
+      "Race": { "code": 3, "english": "Bird" },
+      "Job": { "code": 2, "english": "Soldier" },
+      "Flag": "41 (Decreases Opponent Accuracy)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "10"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "ほかのモンスターとは違う、 変わった動きをするので、 攻撃を命中させるのが大変そう...。コッピの攻撃力は高くないけど、 長期戦はやっぱりツライ。",
+          "english": "It moves differently to other monsters, making it unpredicatble... Coppie's attacks are quite weak but it tends to draw out the battle for a long time."
+        }
+      }
+    }
+  },
+  {
+    "id": "0882328453818",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Moldorm",
+      "name_japanese": "デグテール"
+    },
+    "stat_type": "HP",
+    "stat_value": 8800,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0882328453818",
+      "HP": 8800,
+      "ST": 2300,
+      "DF": 2800,
+      "Race": { "code": 4, "english": "Human" },
+      "Job": { "code": 5, "english": "Soldier" },
+      "Flag": "81 (Rewards Passcode 10)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "11"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "\"ヘラの塔\" を守るボス。こいつを倒すには、 シッポの先を剣で斬りつけるのがいちばん!モタモタしていたら、 体当たりの反撃をくらうぞ。",
+          "english": "This boss protects the \"Tower of Hera\". The best approach is to slash the tip of its tail! Don't hesitate or it'll counter-attack."
+        }
+      }
+    }
+  },
+  {
+    "id": "0902920215703",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Snap Dragon",
+      "name_japanese": "ガプラ"
+    },
+    "stat_type": "HP",
+    "stat_value": 9000,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0902920215703",
+      "HP": 9000,
+      "ST": 2900,
+      "DF": 2000,
+      "Race": { "code": 2, "english": "Aquatic" },
+      "Job": { "code": 1, "english": "Soldier" },
+      "Flag": "70 (Rewards 200 ST)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "12"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "大きな口を開けて、 ピョンピョン突進してくる植物(?)。スルドイ歯と体当なりのダブル効果で、 かなりの攻撃力を持っているそ!",
+          "english": "A plant which rushes at you with its big mouth open(?) Its double attack with a heavy body and teeth make it powerful!"
+        }
+      }
+    }
+  },
+  {
+    "id": "1003538046662",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Ball and Chain Soldier",
+      "name_japanese": "鉄球兵士"
+    },
+    "stat_type": "HP",
+    "stat_value": 10000,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "1003538046662",
+      "HP": 10000,
+      "ST": 3500,
+      "DF": 3800,
+      "Race": { "code": 0, "english": "Mechanical" },
+      "Job": { "code": 4, "english": "Soldier" },
+      "Flag": "66 (Rewards 3000 HP)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "13"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "こんな鉄球をまともにくらったら、 もう立ち上がれない...。まずは、 相手の動きを止めることが先決だ!?この先も旅は長いぞ。なんとしても封印を守るのだ!",
+          "english": "One hit with his iron ball and you won't get back up... Stop him before he builds momentum!? You have a long way to go. You're the only one who can save the seal!"
+        }
+      }
+    }
+  },
+  {
+    "id": "1013840306668",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Hinox",
+      "name_japanese": "ヒノックス"
+    },
+    "stat_type": "HP",
+    "stat_value": 10100,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "1013840306668",
+      "HP": 10100,
+      "ST": 3800,
+      "DF": 4000,
+      "Race": { "code": 3, "english": "Bird" },
+      "Job": { "code": 0, "english": "Soldier" },
+      "Flag": "66 (Rewards 3000 HP)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "14"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "リンクに向かって爆弾を投げてくる、 一シ目のモンスター。かなり生命力かあるので、 一撃で大ダメージを与えないと苦戦しそうだ。",
+          "english": "This is the first monster which throws bombs at Link. It has a lot of viatlity, so if you can't deal much damage with each hit you'll have a tough time."
+        }
+      }
+    }
+  },
+  {
+    "id": "1203535175826",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Agahnim",
+      "name_japanese": "アグニム"
+    },
+    "stat_type": "HP",
+    "stat_value": 12000,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "1203535175826",
+      "HP": 12000,
+      "ST": 3500,
+      "DF": 3500,
+      "Race": { "code": 1, "english": "Animal" },
+      "Job": { "code": 7, "english": "Wizard" },
+      "Flag": "82 (Rewards Passcode 15)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "15"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "いろんな魔法を使って、 激しく攻撃してくる。これといった弱点もなく、 地道な攻撃と回復のタイミングだけが、 リンクに勝利をもたらすだろう。",
+          "english": "He attacks furiously with various spells. With no exploitable weaknesses, Link will need to time his attacks and recovery to be victorious."
+        }
+      }
+    }
+  },
+  {
+    "id": "1392830114712",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Gibdo",
+      "name_japanese": "ギブド"
+    },
+    "stat_type": "HP",
+    "stat_value": 13900,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "1392830114712",
+      "HP": 13900,
+      "ST": 2800,
+      "DF": 3000,
+      "Race": { "code": 1, "english": "Animal" },
+      "Job": { "code": 1, "english": "Soldier" },
+      "Flag": "71 (Rewards 400 ST)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "16"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "このスゴイ生命力!これはただのミイラ男ではなさそう。でも、 火をつければ簡単に燃えてしまうのが、 ミイラ男の悲しさ...。魔法で一撃かな!?",
+          "english": "Such amazing life force! This is more than just a mummy man. Its weakness lies in its flammability. Perhaps magic is needed!?"
+        }
+      }
+    }
+  },
+  {
+    "id": "1504145105761",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Stalfos Knight",
+      "name_japanese": "スタルフォソ"
+    },
+    "stat_type": "HP",
+    "stat_value": 15000,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "1504145105761",
+      "HP": 15000,
+      "ST": 4100,
+      "DF": 4500,
+      "Race": { "code": 1, "english": "Animal" },
+      "Job": { "code": 0, "english": "Soldier" },
+      "Flag": "76 (Rewards 400 DF)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "17"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "ちょっとアタマが大きめの、 ガイコツ戦士。トドメをさすには、 あれがいちばん!!ここまでくれば、 リンクのレベルもかなり上がっているはず。",
+          "english": "This skeleton warrior has a big head. It's also a big target!! If you've gotten this far, Link's level should be quite high."
+        }
+      }
+    }
+  },
+  {
+    "id": "1754250204716",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Helmasaur King",
+      "name_japanese": "ジークロック"
+    },
+    "stat_type": "HP",
+    "stat_value": 17500,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "1754250204716",
+      "HP": 17500,
+      "ST": 4200,
+      "DF": 5000,
+      "Race": { "code": 2, "english": "Aquatic" },
+      "Job": { "code": 0, "english": "Soldier" },
+      "Flag": "71 (Rewards 400 ST)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "18"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "\"闇の神殿\" のボスモンスター。顔全体を覆いつくす鉄仮面は、 そう簡単には壊れない。シッポをムチのようにふりまわす攻撃で、 破壊力もトップレベル!",
+          "english": "The guardian boss of the \"Temple of Darkness\". The iron mask over its face isn't easy to break. Its destructive power is mighty as it uses its heavy tail as a whip!"
+        }
+      }
+    }
+  },
+  {
+    "id": "1885054077777",
+    "category": "Enemy",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Arrghus",
+      "name_japanese": "ワート"
+    },
+    "stat_type": "HP",
+    "stat_value": 18800,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "1885054077777",
+      "HP": 18800,
+      "ST": 5000,
+      "DF": 5400,
+      "Race": { "code": 0, "english": "Mechanical" },
+      "Job": { "code": 7, "english": "Wizard" },
+      "Flag": "77 (Rewards 600 DF)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "19"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "\"水のほこら\" のボスモンスター。体の中心は、 たくさんの岩で守られ、 その全てを破壊しないと倒すことはできない。1つずつたぐり寄せろ!",
+          "english": "The boss monster of the \"Water Caves\". Its centre can't be defeated without destroying the rocks surrounding it. Attack them one at a time!"
+        }
+      }
+    }
+  },
+  {
+    "id": "2496163395837",
+    "category": "Boss",
+    "card_type": {
+      "english": "Enemy Card",
+      "japanese": "敵カード"
+    },
+    "character": {
+      "name_english": "Ganon",
+      "name_japanese": "ガノン"
+    },
+    "stat_type": "HP",
+    "stat_value": 24900,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "2496163395837",
+      "HP": 24900,
+      "ST": 6100,
+      "DF": 6300,
+      "Race": { "code": 3, "english": "Bird" },
+      "Job": { "code": 9, "english": "Wizard" },
+      "Flag": "83 (Rewards Passcode 20)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_value": "20"
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "敵カード", "english": "Enemy Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "ガノンの手からトライフォースを取り戻し、 美しいハイラルの国を守ることができるか!?すべては、 この一戦にかかっている。そして、 ゼルダ姫は......。",
+          "english": "Can you recover the Triforce from Ganon's evil hands and protect the land of Hyrule!? Everything rests on this battle. Princess Zelda is waiting......"
+        }
+      }
+    }
+  },
+  {
+    "id": "0000300620250",
+    "category": "Weapon",
+    "card_type": {
+      "english": "Weapon Card",
+      "japanese": "武器カード"
+    },
+    "character": {
+      "name_english": "Boomerang",
+      "name_japanese": "ブーメラン"
+    },
+    "stat_type": "ST",
+    "stat_value": 300,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0000300620250",
+      "ST": 300,
+      "Race": { "code": 6, "english": "Durable Weapon" },
+      "Job": { "code": 2, "english": "" },
+      "Flag": "25 (DF x0.7 (Opponent))"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "敵の動きを止める",
+          "english": "Stops enemy movement"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "武器カード", "english": "Weapon Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "直接大きなダメージを与えることはできないが、 敵がひるんだスキに、 剣で攻撃すれば、 有利に戦闘をすすめられるぞ。",
+          "english": "If you can't hit flying enemies easily, use this instead of a sword."
+        }
+      }
+    }
+  },
+  {
+    "id": "0000300620151",
+    "category": "Weapon",
+    "card_type": {
+      "english": "Weapon Card",
+      "japanese": "武器カード"
+    },
+    "character": {
+      "name_english": "Hook Shot",
+      "name_japanese": "フックショット"
+    },
+    "stat_type": "ST",
+    "stat_value": 300,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0000300620151",
+      "ST": 300,
+      "Race": { "code": 6, "english": "Durable Weapon" },
+      "Job": { "code": 2, "english": "" },
+      "Flag": "15 (3x Damage to Race 0)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "敵の動きを止める",
+          "english": "Stops enemy movement"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "武器カード", "english": "Weapon Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "先端についた鋭いフックで、 遠くのものを引っかける。武器としてもかなりの威力があるぞ!ジャラジャラと便利に使ってみよう。",
+          "english": "The sharp hook on the tip grabs distant objects. It makes a powerful weapon! Such a handy tool!"
+        }
+      }
+    }
+  },
+  {
+    "id": "0000400620136",
+    "category": "Weapon",
+    "card_type": {
+      "english": "Weapon Card",
+      "japanese": "武器カード"
+    },
+    "character": {
+      "name_english": "Silver Bow and Arrow",
+      "name_japanese": "銀の弓矢"
+    },
+    "stat_type": "ST",
+    "stat_value": 400,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0000400620136",
+      "ST": 400,
+      "Race": { "code": 6, "english": "Durable Weapon" },
+      "Job": { "code": 2, "english": "" },
+      "Flag": "13 (3x Damage to Race 3)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "敵の動きを止める",
+          "english": "Stops enemy movement"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "武器カード", "english": "Weapon Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "リンクの冒険を助けてくれる強力な武器。モンスターの中には、 弓矢じゃないとなかなか倒せない敵もいるから、 いろいろ試してみよう。",
+          "english": "A powerful weapon which will help Link in his adventure. Some enemies can't be beaten without a bow & arrow, so give it a try."
+        }
+      }
+    }
+  },
+  {
+    "id": "0001000521106",
+    "category": "Weapon",
+    "card_type": {
+      "english": "Weapon Card",
+      "japanese": "武器カード"
+    },
+    "character": {
+      "name_english": "Bomb",
+      "name_japanese": "ばくだん"
+    },
+    "stat_type": "ST",
+    "stat_value": 1000,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0001000521106",
+      "ST": 1000,
+      "Race": { "code": 5, "english": "1-Use Weapon" },
+      "Job": { "code": 2, "english": "" },
+      "Flag": "10 (3x Damage to Job 0)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "敵の動きを止める",
+          "english": "Stops enemy movement"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "武器カード", "english": "Weapon Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "ドッカ~ン!と一発、 破壊力 No.1 の武器だ。ただし、 その効果は一回だけだから、 確実に敵にヒットさせないと、 そのあとの戦闘がキツイかも・・・。",
+          "english": "Kaboom! The most powerful weapon in the game. However it only works once, so if you miss the rest of the battle may be tough..."
+        }
+      }
+    }
+  },
+  {
+    "id": "0001000521144",
+    "category": "Weapon",
+    "card_type": {
+      "english": "Weapon Card",
+      "japanese": "武器カード"
+    },
+    "character": {
+      "name_english": "Spinning Slash",
+      "name_japanese": "回転斬り"
+    },
+    "stat_type": "ST",
+    "stat_value": 1000,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0001000521144",
+      "ST": 1000,
+      "Race": { "code": 5, "english": "1-Use Weapon" },
+      "Job": { "code": 2, "english": "" },
+      "Flag": "14 (3x Damage to Race 4)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "敵の動きを止める",
+          "english": "Stops enemy movement"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "武器カード", "english": "Weapon Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "剣に力をためて、 一気に斬りだすリンクの得意技!前半の弱い敵なら先制の一撃で倒すこともできる。一度しか斬りだせないので、 使う相手を考えよう。",
+          "english": "This is Link's signature move where he stores power in his sword and unleashes! Weaker enemies go down in 1 strike. You can only do this once, so choose your opponent carefully."
+        }
+      }
+    }
+  },
+  {
+    "id": "0000000820417",
+    "category": "Protector",
+    "card_type": {
+      "english": "Armour Card",
+      "japanese": "防具カード"
+    },
+    "character": {
+      "name_english": "Magic Cape",
+      "name_japanese": "マジックマント"
+    },
+    "stat_type": "DF",
+    "stat_value": 0,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0000000820417",
+      "DF": 0,
+      "Race": { "code": 8, "english": "Durable Armour" },
+      "Job": { "code": 2, "english": "" },
+      "Flag": "41 (Decreases Opponent Accuracy)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "敵の攻撃をかわす",
+          "english": "Dodge enemy attacks"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "防具カード", "english": "Armour Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "着ている者の姿を消してしまうという、 魔法のマント!これさえあれば、 見えない相手の姿に、 モンスターも攻撃ミスの連続マチガイなし!",
+          "english": "A magical cloak which makes the wearer vanish! Use this and your opponent will miss you quite often!"
+        }
+      }
+    }
+  },
+  {
+    "id": "0000008820372",
+    "category": "Protector",
+    "card_type": {
+      "english": "Armour Card",
+      "japanese": "防具カード"
+    },
+    "character": {
+      "name_english": "Pegasus Boots",
+      "name_japanese": "ペガサスの靴"
+    },
+    "stat_type": "DF",
+    "stat_value": 800,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0000008820372",
+      "DF": 800,
+      "Race": { "code": 8, "english": "Durable Armour" },
+      "Job": { "code": 2, "english": "" },
+      "Flag": "37 (Increases Own Accuracy {1st Turn})"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "敵の攻撃をかわす",
+          "english": "Dodge enemy attacks"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "防具カード", "english": "Armour Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "この靴をはけば、 ぐ~んとスピードアップ!これでモンスターに不意打ちされることもなくなるぞ。守備力も上がって、 これはお得!?",
+          "english": "Wear these for a boost of speed! No enemy will catch you off guard. Your defence also increases, what a great deal!?"
+        }
+      }
+    }
+  },
+  {
+    "id": "0120000902125",
+    "category": "Power",
+    "card_type": {
+      "english": "Power Card",
+      "japanese": "パワーカード"
+    },
+    "character": {
+      "name_english": "Heart",
+      "name_japanese": "ハート"
+    },
+    "stat_type": "HP",
+    "stat_value": 1200,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0120000902125",
+      "HP": 1200,
+      "Race": { "code": 9, "english": "Power" },
+      "Job": { "code": 0, "english": "" },
+      "Flag": "12 (3x Damage to Race 2)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "生命力回復",
+          "english": "Vitality recovery"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "パワーカード", "english": "Power Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "リンクの生命力をアップしてくれる、 とってもうれしいアイテムのひとつ。長い冒険を生きぬく基本は、 やっぱり生命力かもね。",
+          "english": "One of the excellent items which increases Link's vitality. After all, the key to surviving a long adventure may be vitality."
+        }
+      }
+    }
+  },
+  {
+    "id": "0000500970445",
+    "category": "P.Point",
+    "card_type": {
+      "english": "Herbal Card",
+      "japanese": "薬草カード"
+    },
+    "character": {
+      "name_english": "Red Potion",
+      "name_japanese": "赤いくすり"
+    },
+    "stat_type": "PP",
+    "stat_value": 5,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0000500970445",
+      "PP": 5,
+      "Race": { "code": 9, "english": "Herb (Survival)" },
+      "Job": { "code": 7, "english": "" },
+      "Flag": "44 (Increases Own Resilience (?))"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "生命力回復",
+          "english": "Vitality recovery"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "薬草カード", "english": "Herbal Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "激しい戦いのあとは赤いくすりを飲んで、 体力回復!だけど、 知らないうちに空になっていることも...。気がついたらい、 少しすつ補給しておこう。",
+          "english": "After a fierce battle, take some red medicine to recover your strength! But the bottle may be empty before you realise... Keep an eye on how much is left."
+        }
+      }
+    }
+  },
+  {
+    "id": "0000005980017",
+    "category": "M.Point",
+    "card_type": {
+      "english": "Magic Card",
+      "japanese": "魔法カード"
+    },
+    "character": {
+      "name_english": "Magic Decanter",
+      "name_japanese": "魔法の壷"
+    },
+    "stat_type": "MP",
+    "stat_value": 5,
+    "c2_mode_compatible": true,
+    "metadata": {
+      "barcode": "0000005980017",
+      "MP": 5,
+      "Race": { "code": 9, "english": "Magic" },
+      "Job": { "code": 8, "english": "" },
+      "Flag": "1 (3x Damage to Job 1)"
+    },
+    "sides": {
+      "front": {
+        "instructions_japanese": "カードイン",
+        "instructions_english": "Card In",
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "dice_text": {
+          "japanese": "魔法力回復",
+          "english": "Magic power recovery"
+        }
+      },
+      "back": {
+        "header_japanese": "C2モード対応",
+        "header_english": "Supports C2 Mode",
+        "card_text": { "japanese": "魔法カード", "english": "Magic Card" },
+        "mode": { "japanese": "サイコロモード", "english": "Dice Mode" },
+        "description": {
+          "japanese": "強力な魔法も、 魔法ポイントが0になっては役にたたない。「備えあれば憂いなし」、 魔法を唱える前には、 必ず飲みましょう。",
+          "english": "Even the most powerful spells are useless without Magic Points. \"Be prepared to avoid misery,\" So be sure to drink some before casting spells."
+        }
+      }
+    }
+  }
+]
