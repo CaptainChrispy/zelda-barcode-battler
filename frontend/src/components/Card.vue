@@ -1,19 +1,27 @@
 <template>
-  <div class="card-flipper" :class="{ 'is-flipped': isFlipped }" @click="isFlipped = !isFlipped">
-    <div class="card">
+  <div class="card-flipper" :class="[cardClasses, { 'is-flipped': isFlipped }]" @click="isFlipped = !isFlipped">
+    <div class="card" :style="cardFrontStyle">
       <!-- Front of the Card -->
       <div class="card-front">
-        <header class="card-header-front">
-          <div class="logo-text">
-            <span class="zelda-logo-jp" v-if="language === 'jp'">ゼルダの伝説</span>
-            <span class="zelda-logo-en" v-else>The Legend of Zelda</span>
-            <span class="triforce-logo-jp" v-if="language === 'jp'">神々のトライフォース</span>
-            <span class="triforce-logo-en" v-else>A Link to the Past</span>
-          </div>
-          <span class="character-name-en">{{ characterName.toUpperCase() }}</span>
-        </header>
-        <main class="card-body-front">
-          <div class="vertical-char-name">{{ characterName }}</div>
+        <main class="card-body-front" :class="{ 'is-item': card.type === 'item' && card.category !== 'Soldier' }">
+          <template v-if="card.type === 'player' || card.category === 'Soldier'">
+            <header class="card-header-front">
+              <div class="logo-text">
+                <span class="zelda-logo-jp" v-if="language === 'jp'">ゼルダの伝説</span>
+                <span class="zelda-logo-en" v-else>The Legend of Zelda</span>
+                <span class="triforce-logo-jp" v-if="language === 'jp'">神々のトライフォース</span>
+                <span class="triforce-logo-en" v-else>A Link to the Past</span>
+              </div>
+            </header>
+            <div class="name-jp">{{ language === 'jp' ? characterName : '' }}</div>
+            <div class="name-en">{{ characterName.toUpperCase() }}</div>
+          </template>
+          <template v-else-if="card.type === 'item' && card.category !== 'Soldier'">
+            <div class="item-name-box">
+              <span class="item-name-jp">{{ language === 'jp' ? characterName : '' }}</span>
+            </div>
+            <span class="item-name-en">{{ language === 'en' ? characterName.toUpperCase() : '' }}</span>
+          </template>
           <div class="character-art-placeholder"></div>
           <div class="details-right">
             <div class="card-in-box">
@@ -73,7 +81,6 @@
 import { computed, ref, onMounted } from 'vue';
 import JsBarcode from 'jsbarcode';
 
-// Define a type for the card structure for type-safety
 interface CardData {
   id: string;
   character: {
@@ -83,8 +90,13 @@ interface CardData {
   stat_type: string;
   stat_value: number;
   c2_compatible: boolean;
-  section: string;
+  category: string;
   type: string;
+  item_type?: string;
+  item_color?: {
+    primary: string;
+    secondary: string;
+  };
   sides: {
     front: {
       instructions_english: string;
@@ -97,6 +109,7 @@ interface CardData {
       magic_attack?: {
         value: string;
       };
+      psycho_icons?: string[];
     };
     back: {
       header_english: string;
@@ -159,6 +172,21 @@ const cardType = computed(() => {
     if (props.card.type === 'enemy') return props.language === 'en' ? 'Enemy Card' : 'エネミーカード';
     return '';
 })
+
+const cardFrontStyle = computed(() => {
+  if (props.card.type === 'item' && props.card.item_color) {
+    return {
+      '--card-primary-color': props.card.item_color.primary,
+      '--card-secondary-color': props.card.item_color.secondary
+    };
+  }
+  return {};
+});
+
+const cardClasses = computed(() => ({
+  'is-item': props.card.type === 'item' && props.card.category !== 'Soldier',
+  [`item-type-${props.card.item_type}`]: props.card.type === 'item' && props.card.item_type && props.card.category !== 'Soldier'
+}));
 
 onMounted(() => {
   if (barcodeRef.value) {
@@ -225,11 +253,12 @@ onMounted(() => {
 }
 
 .card-header-front {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #f9e800;
-  padding: 2px 10px;
+  padding: 4px 10px;
   border-bottom: 3px solid #00a9e0;
 }
 
@@ -238,6 +267,7 @@ onMounted(() => {
   flex-direction: column;
   font-weight: bold;
   font-size: 0.7rem;
+  width: fit-content;
 }
 
 .zelda-logo-jp,
@@ -247,28 +277,43 @@ onMounted(() => {
   display: block;
 }
 
-.character-name-en {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #e60012;
-  font-style: italic;
-}
-
 .card-body-front {
   flex-grow: 1;
   display: flex;
   position: relative;
   background-size: cover;
+  padding-top: 45px;
 }
 
-.vertical-char-name {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+.name-jp {
+  position: absolute;
+  left: 15px;
+  top: 55px;
   font-size: 1.8rem;
   font-weight: bold;
-  padding: 10px;
-  color: #fff;
-  text-shadow: 2px 2px 4px #000;
+  color: #0075c2;
+  text-shadow: 
+    1px 1px 0 #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff;
+}
+
+.name-en {
+  position: absolute;
+  top: 3px;
+  right: 15px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #e60012;
+  font-style: italic;
+  transform: skew(-10deg);
+  line-height: 1;
+  text-shadow: 
+    1px 1px 0 #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff;
 }
 
 .character-art-placeholder {
@@ -477,5 +522,65 @@ onMounted(() => {
 .barcode-container canvas {
   height: 60px !important;
   width: 100% !important;
+}
+
+/* Item Card Specific Styles */
+.card-body-front.is-item {
+  background: var(--card-primary-color, #9ddb89);
+  background: radial-gradient(
+    circle at 50% 50%,
+    var(--card-secondary-color, #c5e0b4) 25%,
+    var(--card-primary-color, #9ddb89) 25%
+  );
+  background-size: 8px 8px;
+  position: relative;
+  padding-top: 0;
+}
+
+.item-name-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.item-name-jp {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.item-name-en {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0000FF;
+  font-style: italic;
+  text-shadow: 2px 2px 0 white;
+}
+
+/* Specific item type styles */
+.card-flipper.item-type-healing .dice-mode-box,
+.card-flipper.item-type-healing .dice-mode-box-back {
+  border-color: #e60012;
+}
+
+.card-flipper.item-type-healing .dice-mode-title,
+.card-flipper.item-type-healing .dice-mode-title-back {
+  background-color: #e60012;
+}
+
+.card-flipper.item-type-weapon .dice-mode-box,
+.card-flipper.item-type-weapon .dice-mode-box-back {
+  border-color: #0075c2;
+}
+
+.card-flipper.item-type-weapon .dice-mode-title,
+.card-flipper.item-type-weapon .dice-mode-title-back {
+  background-color: #0075c2;
 }
 </style>
